@@ -1,0 +1,2 @@
+:root{--black:#000;--white:#fff}*{font-family:Poppins,sans-serif;font-size:20px;font-weight:400}body{margin:0}.n-wrapper{display:flex;height:10vh;justify-content:space-between;padding:10px}.n-left{flex:1 1;font-size:1.7rem;font-weight:700;margin-left:2rem}.n-right{display:flex;flex:1 1;margin-right:2rem}.n-list{flex:10 1}.n-list>ul{display:flex;font-size:1rem;gap:3rem}.n-list>ul:hover{color:green;cursor:pointer}
+/*# sourceMappingURL=main.e69ad6cd.css.map*/
