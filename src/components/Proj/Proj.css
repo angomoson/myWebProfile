@@ -1,0 +1,12 @@
+.proj-section {
+    padding: 15px;
+    background-color: var(--black);
+    min-height: 100vh;
+}
+
+.proj-wrapper>h3 {
+    color: var(--white);
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}

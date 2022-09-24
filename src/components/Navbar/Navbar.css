@@ -2,33 +2,48 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 15px;
+    background-color: black;
+    overflow: hidden;
+    /* position: fixed; */
+    top: 0;
 }
 
 .n-left {
+    flex: 1;
+    margin-left: 5%;
+}
+
+.n-left>i {
     font-size: 1.7rem;
     font-weight: bold;
-    flex: 1;
-    margin-left: 2rem;
+    color: var(--white);
 }
 
 .n-right {
     display: flex;
     flex: 1;
     margin-right: 2rem;
+    align-items: center;
 }
 
 .n-list {
     flex: 10;
+    align-items: center;
 }
 
 .n-list>ul {
     display: flex;
-    gap: 3rem;
-    font-size: 1rem;
+    gap: 8%;
+    color: white;
 }
 
-.n-list>ul:hover {
+.n-list>ul>li>a {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.n-list>ul>li>a:hover {
+    color: var(--purple);
     cursor: pointer;
-    color: green;
 }
