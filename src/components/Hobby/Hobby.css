@@ -1,0 +1,59 @@
+.hob-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--black);
+    min-height: 100vh;
+    color: var(--white);
+}
+
+.hobby-page {
+    background-color: var(--black);
+}
+
+.hob-left-desc {
+    color: var(--gray);
+    margin-top: 5%;
+}
+
+.hob-left {
+    display: flex;
+    flex-direction: column; 
+    flex: 2;
+    padding: 5%;
+}
+.hob-left-title>h3 {
+    font-weight: 530;
+    font-size: 65px;
+    color: var(--white);
+    margin: 0;
+}
+
+.hob-right {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    padding: 5%;
+}
+
+.hob-right-title>p {
+    font-size: 20px;
+}
+
+.h-icon {
+    filter: invert(100%) sepia(0%) saturate(4278%) hue-rotate(121deg) brightness(111%) contrast(101%);
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.h-item {
+    display: flex;
+    margin-top: 4%;
+}
+
+.h-p {
+    font-size: 45px;
+    font-weight: 300;
+    padding: 0%;
+    margin:0%
+}

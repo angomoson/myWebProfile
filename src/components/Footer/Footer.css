@@ -1,0 +1,12 @@
+.f-wrapper {
+    min-height: 30vh;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-copy {
+    color: var(--white);
+    margin: auto;
+}

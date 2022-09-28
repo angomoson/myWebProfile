@@ -2,18 +2,20 @@
 {
     --black:black;
     --white:white;
-    --purple:#800080;
+    --hover: #AAAAAA;
+    --gray: #8B9499;
 
 }
 
 *{
     font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    font-size: 20px;
+    font-weight: small;
+    font-size: 16px;
 }
 
 body {
     margin: 0;
+    background-color: var(--white);
 }
 
 .ul-list {
@@ -36,14 +38,14 @@ body {
 }
 
 .button:hover {
-    background-color:var(--purple);
+    background-color:var(--hover);
     border: none;
     color: white;
 }
 
 a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--hover);
 
 }
 
@@ -53,5 +55,16 @@ a:visited {
 
 a:hover, a:active {
     background-color: none;
-    color: var(--purple);
+    color: var(--black);
   }
+
+hr {
+    width: 90%;
+} 
+
+hr.white-hr {
+    border: solid gray;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border-width: 1px;
+}

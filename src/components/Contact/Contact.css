@@ -1,0 +1,76 @@
+.c-wrapper {
+    min-height: 100vh;
+    padding: 5%;
+    color: var(--white);
+    background-color: var(--black);
+}
+.con-left>h3 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.c-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-left {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding: 20px;
+}
+
+.c-form {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 20px;
+}
+
+input {
+    width: 320px;
+    margin: 2px;
+}
+
+.c-form p {
+    padding: 0;
+    margin: 2px;
+}
+
+.i-message {
+    height: 200px;
+    width: 320px;
+    margin: 2px;
+}
+
+.c-btn {
+    width: 323px;
+    margin: 2px;
+    border: solid;
+    border-color: var(--black);
+    text-align: center;
+    border-radius: 1px;
+}
+
+.c-btn:hover {
+    background-color: gray;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.social-links {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.social-links>a {
+    margin-right: 2%;
+}
+
+.social-links>a:hover {
+    color: var(--white);
+}
+
+.map {
+    border-radius: 10px;
+}

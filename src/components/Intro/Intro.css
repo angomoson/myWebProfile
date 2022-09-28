@@ -1,59 +1,102 @@
 .intro {
     display: flex;
-    padding: 30px;
-    background-color: black;
-    min-height: 80vh;
+    flex-wrap: wrap;
+    min-height: 100vh;
 }
 
 .i-left {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    flex: 1;
-    margin-left: 7%;
-    gap: 1rem;
+    flex: 2;
+    padding: 5%;
+}
+
+.i-left-bottom p{
+    font-weight: 600;
+    font-size: 26px;
+    margin: 0;
 }
 
 .i-right {
     display: flex;
-    flex: 1;
+    flex: 2;
+    padding: 2%;
 }
 
-.i-left>:nth-child(1)
-{
-    color: var(--purple);
-    font-weight: 900;
-    font-size: 3rem;
-    margin-top: 1rem;
-}
-
-.i-left>:nth-child(2)
-{
-    color: var(--white);
-    font-weight: 900;
-    font-size: 3rem;
-}
-
-.i-left>:nth-child(3)
-{
-    color: var(--purple);
-    font-weight: 100;
-    font-size: 16px;
-    margin-top: 1rem;
+.i-hero-name {
+    font-weight: 1000;
+    font-size: 1000%;
 }
 
 .i-icons {
     display: flex;
-}
-
-.i-icons>* {
-    width: 35px;
+    flex-direction: column;
+    gap: 5%;
     margin-top: 10%;
-    margin-left: 4%;
-    filter: invert(100%) sepia(60%) saturate(990%) hue-rotate(199deg) brightness(116%) contrast(101%);
 }
 
-.i-icons>*:hover
- {
-    cursor: pointer;
-    filter: invert(14%) sepia(42%) saturate(7455%) hue-rotate(291deg) brightness(78%) contrast(116%);
+.i-icons img {
+    width: 30%;
+    
 }
+
+.i-icons img:hover {
+    filter: invert(92%) sepia(4%) saturate(15%) hue-rotate(321deg) brightness(76%) contrast(82%);    
+    cursor: pointer;
+}
+
+.mail {
+    margin-bottom: 10px;
+}
+
+.i-photo img {
+    width: 100%;
+}
+
+@media (max-width: 1000px) { 
+    .i-hero-name {
+        font-weight: 1000;
+        font-size: 900%;
+    }
+ }
+
+ @media (max-width: 900px) { 
+    .i-hero-name {
+        font-weight: 1000;
+        font-size: 850%;
+    }
+ }
+
+ @media (max-width: 800px) { 
+    .i-hero-name {
+        font-weight: 1000;
+        font-size: 800%;
+    }
+
+    .intro {
+        height: 70vh;
+    }
+ }
+
+ @media (max-width: 600px) { 
+    .i-right {
+        display: none;
+    }
+ }
+
+ @media (max-width: 400px) { 
+    .i-right {
+        display: flex;
+    }
+    .intro {
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width: 385px) { 
+    .i-hero-name {
+        font-weight: 800;
+        font-size: 500%;
+    }
+ }
