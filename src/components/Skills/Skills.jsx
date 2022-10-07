@@ -67,6 +67,7 @@ const Skills = () => {
               <SkillItem 
               text="Photoshop" 
               icon= {Photoshop}
+              
               />
           </div>
         </div>
